@@ -1,9 +1,9 @@
 package cn.carbank.sample.lock;
 
-import cn.carbank.exception.IdempotentRuntimeException;
-import cn.carbank.locksupport.Lock;
-import cn.carbank.locksupport.LockClient;
-import cn.carbank.locksupport.LockModel;
+import cn.carbank.idempotent.exception.IdempotentRuntimeException;
+import cn.carbank.idempotent.locksupport.Lock;
+import cn.carbank.idempotent.locksupport.LockClient;
+import cn.carbank.idempotent.locksupport.LockModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.Assert;
 

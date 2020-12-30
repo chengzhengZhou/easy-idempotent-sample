@@ -1,6 +1,6 @@
 package cn.carbank.config;
 
-import cn.carbank.repository.MemoryIdempotentRecordRepoImpl;
+import cn.carbank.idempotent.repository.MemoryIdempotentRecordRepoImpl;
 import org.springframework.stereotype.Component;
 
 /**

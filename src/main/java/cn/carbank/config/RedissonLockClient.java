@@ -1,8 +1,8 @@
 package cn.carbank.config;
 
-import cn.carbank.locksupport.Lock;
-import cn.carbank.locksupport.LockClient;
-import cn.carbank.locksupport.LockModel;
+import cn.carbank.idempotent.locksupport.Lock;
+import cn.carbank.idempotent.locksupport.LockClient;
+import cn.carbank.idempotent.locksupport.LockModel;
 import org.redisson.Redisson;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
@@ -10,7 +10,6 @@ import org.redisson.config.Config;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 

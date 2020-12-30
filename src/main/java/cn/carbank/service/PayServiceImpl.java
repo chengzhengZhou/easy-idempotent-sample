@@ -1,8 +1,8 @@
 package cn.carbank.service;
 
-import cn.carbank.annotation.Idempotent;
-import cn.carbank.annotation.StorageParam;
-import cn.carbank.constant.StorageType;
+import cn.carbank.idempotent.annotation.Idempotent;
+import cn.carbank.idempotent.annotation.StorageParam;
+import cn.carbank.idempotent.constant.StorageType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
